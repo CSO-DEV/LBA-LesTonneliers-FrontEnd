@@ -1,0 +1,15 @@
+.grid_details {
+  display: flex;
+}
+
+.caroussel_col1 h3 {
+  width: max-content;
+  color: #9a1e27;
+  border-bottom: 1px solid #9a1e27;
+  padding-bottom: 5px;
+}
+
+.grid_details .caroussel_col2 {
+  display: grid;
+  align-content: center;
+}

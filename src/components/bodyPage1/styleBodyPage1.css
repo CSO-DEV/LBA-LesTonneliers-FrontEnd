@@ -1,0 +1,74 @@
+.bodyPage1 {
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: -64px;
+  margin-bottom: 74px;
+}
+
+.classRetour {
+  position: fixed;
+  right: 0;
+  margin-right: 10px;
+  background-color: #d4d4d4;
+}
+
+.headerPage1 {
+  height: 300px;
+  background-image: url("/img/Panoramique_beaune.jpg");
+  background-position: center;
+}
+
+@keyframes apparition {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  80% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.headerPage1 {
+  animation: apparition 2s linear;
+}
+
+.classBodyPage1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("/img/Panoramique_beaune.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  margin-top: -8px;
+}
+.textePage1 {
+  background-color: #d4d4d4;
+}
+.bodyPage1 .headerPage1 img {
+  height: 200px;
+}
+.bodyPage1 h1 {
+  text-align: center;
+  color: rgb(148, 23, 30);
+  font-size: 3.5rem;
+}
+.bodyPage1 h3 {
+  color: rgb(148, 23, 30);
+  text-align: center;
+  font-size: 2.5rem;
+}
+.bodyPage1 h4 {
+  color: rgb(148, 23, 30);
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 15px 239px;
+}
+
+.contact_component {
+  margin-top: 50px;
+}

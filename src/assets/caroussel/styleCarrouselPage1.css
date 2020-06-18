@@ -1,0 +1,10 @@
+.container {
+  max-width: 800px;
+}
+.carousel {
+  padding: 10px;
+}
+
+.classCaption {
+  font-size: 20px;
+}

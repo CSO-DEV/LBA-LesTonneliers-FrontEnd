@@ -1,0 +1,71 @@
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+#link {
+  display: block;
+  text-align: center;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+#link:hover {
+  color: #9a1e27;
+}
+
+/* Add a background color and some padding around the form */
+.formulaire {
+  color: #570000;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  letter-spacing: 0.3rem;
+}
+
+#form {
+  display: flex;
+}
+
+#form .row {
+  background-color: transparent;
+  margin: 0 50px;
+}
+
+.reserve {
+  text-align: center;
+}
+
+.contact h2,
+.contact .reserve h2,
+.contact .reserve span {
+  color: #9a1e27;
+  width: max-content;
+  color: #9a1e27;
+  border-bottom: 1px solid #9a1e27;
+  padding-bottom: 2px;
+}
+.contact h2 {
+  padding-left: unset;
+}
+.reserve img {
+  max-width: inherit;
+  max-height: 350px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px #d4d4d4;
+}

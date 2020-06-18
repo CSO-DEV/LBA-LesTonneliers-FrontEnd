@@ -1,0 +1,29 @@
+#navbar {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: #d4d4d4;
+  height: 64px;
+  letter-spacing: 0.3rem;
+  padding-top: 10px;
+  padding-right: 30px;
+  font-size: 1.2rem;
+}
+
+a,
+.dropdown-item {
+  color: #9a1e27;
+}
+
+a:hover,
+.dropdown-item:hover {
+  color: #570000;
+}
+
+.dropdown-item {
+  background-color: #d4d4d4;
+}
+.dropdown-menu {
+  padding: 0px;
+  border-width: 0px;
+}

@@ -1,0 +1,26 @@
+.equipment_content {
+  background-color: #d4d4d4;
+  margin: 0 15px;
+}
+
+.equipment {
+  text-align: -moz-center;
+  margin-top: 75px;
+  margin-bottom: 20px;
+}
+.equipment h3 {
+  padding: 20px;
+  width: max-content;
+  color: #9a1e27;
+  border-bottom: 1px solid #9a1e27;
+  padding-bottom: 5px;
+}
+
+.equipment_details {
+  display: flex;
+}
+
+.equipment_details li {
+  list-style: url("/img/barrel.png");
+  line-height: 2.5rem;
+}

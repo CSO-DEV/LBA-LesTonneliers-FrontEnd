@@ -1,0 +1,92 @@
+.gridPage2 {
+  color: #9a1e27;
+  text-decoration: none;
+  padding-top: 20px;
+  margin-left: 75px;
+}
+
+.container1Grid2 {
+  border: 2px solid #9a1e27;
+  border-radius: 15px;
+  margin-right: 0;
+  width: 25vw;
+}
+
+.labelGrid2 {
+  margin: 0;
+}
+.InputGrid2 {
+  margin: 0;
+  margin-bottom: 6px !important;
+  padding: 1px !important;
+}
+
+.ButtonPlusMoins {
+  background-color: white;
+  border: 1px solid #ccc;
+  font-size: 17px;
+}
+.plusMoins {
+  margin-right: 5px;
+  margin-left: 5px;
+  text-align: center;
+  padding-top: 1px;
+  width: 25px;
+  font-weight: bold;
+}
+.cont1Row2Grid2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.cont1Row2Col2Grid2 {
+  text-align: right;
+  display: flex;
+  margin-right: 15px;
+  justify-content: flex-end;
+  padding-right: 0;
+}
+.cont1Row3Col2Grid2,
+.cont1Row4Col2Grid2,
+.cont1Row5Col2Grid2,
+.cont1Row6Col2Grid2,
+.cont1Row8Col2Grid2 {
+  text-align: right;
+}
+
+.spanPrix {
+  font-size: 25px;
+}
+.cont1Row7Grid2 {
+  border-top: 2px solid #9a1e27;
+  margin: 5px 5px 5px 0px;
+}
+
+.cont1Row8Grid2 span {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cont1Row9Grid2 {
+  text-align: center;
+  padding: 5px;
+}
+
+.cont1Row0Grid2 span,
+.cont1Row2Col2Grid2 span,
+.cont1Row3Grid2 span,
+.cont1Row4Grid2 span,
+.cont1Row5Grid2 span,
+.cont1Row6Grid2 span {
+  text-decoration: none;
+}
+
+/*Container 2*/
+
+.container2Grid2 {
+  border: 2px solid #9a1e27;
+  border-radius: 15px;
+  margin-right: 0;
+  width: 25vw;
+  margin-top: 20px;
+  padding: 20px;
+}

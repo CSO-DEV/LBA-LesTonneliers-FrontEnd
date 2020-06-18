@@ -1,0 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.content {
+  margin-top: 64px;
+}
+
+.content h2 {
+  color: #9a1e27;
+  padding-left: 20px;
+}

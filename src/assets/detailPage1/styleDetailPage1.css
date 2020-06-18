@@ -1,0 +1,54 @@
+/*.colNote {
+  color: #570000;
+  text-align: right;
+}
+
+.colTitle {
+  color: #570000;
+}
+
+.colDescription {
+  color: #570000;
+}
+*/
+
+.colNote {
+  color: #570000;
+  text-align: right;
+  padding-right: 5px;
+}
+
+.colTitle {
+  color: #570000;
+  font-weight: 500;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  padding-right: 5px;
+}
+
+.rowDescription {
+  height: 100px;
+  max-height: 100px;
+  overflow: hidden;
+}
+
+.colDescription {
+  color: #570000;
+  margin: 0;
+  padding-right: 5px;
+}
+
+.colCharacteristics {
+  color: #570000;
+  height: 53px;
+  max-height: 53px;
+  padding-right: 5px;
+  margin-top: 6px;
+}
+
+.colMore {
+  text-align: right;
+  padding-right: 5px;
+  margin-top: 2px;
+}
